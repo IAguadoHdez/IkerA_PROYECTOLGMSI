@@ -61,6 +61,7 @@ header {
     align-items: center;
     border-bottom: 4px solid;
     border-color: var(--accent);
+    
 }
 header nav {
     display: none;
@@ -229,6 +230,7 @@ footer{
     background-color: var(--celeste);
     width: 100%;
     border-top: 3px solid var(--accent);
+    position: fixed;
 }
 
 footer img {
@@ -261,7 +263,7 @@ footer ul li img:hover {
 @media (min-width: 577px) {
 
         section article img {
-            width: 300px;
+            width: 250px;
         }
 
         p{
