@@ -1,0 +1,112 @@
+:root {
+--accent: #3B82F6;
+--celeste:#9DC1FB;
+--c2: #F5F5F5;
+--c3:#E5E5E5;
+--c4: #3E3737;
+}
+body{
+    background-color: var(--c2);
+}
+/* Titulos */
+
+h1,h2,h3,h4 {
+    font-family:"Poppins";
+    padding: 50px;
+    text-align: center;
+}
+h1 { 
+    padding-top: 10px;
+    font-size: 2em;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
+section h3 {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+
+
+
+
+/* Articulos */ 
+section article img, section article p{
+    padding-left: 10px;
+    
+}
+section article p {
+    padding-top: 5px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+section article h4{
+
+    font-size: 20px;
+    padding-bottom: 10px;
+  
+ }
+
+
+/* MEDIA */
+
+@media (min-width: 577px) {
+
+        section article img {
+            width: 250px;
+        }
+
+        p{
+            width: 400px;
+            text-align: center;
+            display: inline-block;
+            transform: translateY(-90%);
+            font-weight: bold;
+        }
+
+        h4 {
+            text-align: left;
+        }
+        
+        .Article-D h4{
+            padding-bottom: 15px;
+        }
+
+        
+}
+
+@media (min-width:1025px) {
+    section article img {
+        width: 400px;
+    }
+    .Article-D article {
+        display: inline-block;
+    }
+    .Articulos-N article {
+        display: inline-block;
+    }
+
+    .Articulos-N hr {
+        display: none;
+    }
+    hr {
+        border: 2px solid var(--c4);
+    }
+    h3 {
+        font-size: 35px;
+    }
+ 
+    footer ul li img:hover {
+        width: 20px;
+    }
+}
